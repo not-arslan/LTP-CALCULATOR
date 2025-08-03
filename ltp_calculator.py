@@ -1,4 +1,4 @@
-# ltp_calculator.py
+```
 def calculate_nifty_option_profit_loss(option_type, strike_price, spot_price, premium, lot_size, num_lots):
     """
     Calculate profit or loss for a Nifty option trade.
@@ -41,3 +41,4 @@ def calculate_nifty_option_profit_loss(option_type, strike_price, spot_price, pr
     
     except Exception as e:
         return {"error": f"Calculation error: {str(e)}"}
+```
