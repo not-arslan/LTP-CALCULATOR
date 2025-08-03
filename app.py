@@ -5,7 +5,7 @@ from ltp_calculator import calculate_nifty_option_profit_loss
 
 st.title("Nifty Options LTP Calculator with Option Chain")
 
-# Mock option chain data (replace with API call for real data)
+# Mock option chain data (replace with NSE API for real-time data)
 option_chain_data = {
     "Strike Price": [24500, 24600, 24700, 24800, 24900, 25000, 25100, 25200, 25300, 25400],
     "Call LTP": [250.5, 200.3, 150.7, 110.2, 80.5, 55.1, 35.2, 20.8, 12.3, 8.5],
