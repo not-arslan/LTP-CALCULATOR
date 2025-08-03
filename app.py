@@ -1,4 +1,4 @@
-# app.py
+```
 import streamlit as st
 import pandas as pd
 from ltp_calculator import calculate_nifty_option_profit_loss
@@ -37,3 +37,4 @@ if st.button("Calculate"):
         st.info(f"**Break-Even Point**: ₹{result['break_even']}")
         st.info(f"**Total Premium Paid**: ₹{result['total_premium_paid']}")
         st.warning(f"**OI Insight**: {result['oi_insight']}")
+```
